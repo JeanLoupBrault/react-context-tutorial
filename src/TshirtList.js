@@ -11,6 +11,7 @@ export const TshirtList = () => {
 
   return (
     <div>
+
       {
         database.map(item => (
           <Tshirt name={item.name} price={item.price} key={item.id} />
